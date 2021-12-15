@@ -1,0 +1,8 @@
+const num =[85,9,6,4];
+
+const reduceNo =() => {
+return num.reduce((total,num)=>{
+return total +num 
+});
+};
+console.log(reduceNo());
