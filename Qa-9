@@ -1,0 +1,6 @@
+function removeDuplicate(arr){
+    return [...arr].reduce((acc,curr)=>{
+      return acc.includes(curr)? acc : acc+ curr;
+    },"")
+  }
+  console.log(removeDuplicate("removeDuplicateArray"));
